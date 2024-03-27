@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("https://images.unsplash.com/photo-1707343843344-011332037abb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzMXx8fGVufDB8fHx8fA%3D%3D");	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.prime{
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	padding: 0px 25px 0px 25px;
+	height: 60px;
+	margin-top: 1px;
+	font-family: serif;
+}
+#book{
+	margin: 8px 2px 14px 28px;
+	padding: 10px 37px 10px 37px;
+	border-radius: 25px;
+	border-style: none;
+	background-color: #fff;
+
+}
+#book:hover{
+	background-color: skyblue;
+}
+.header{
+	background-color: #000;
+}
+.list {
+        margin: 0 auto; /* This will center the div horizontally */
+        width: 50%; /* Adjust the width as needed */
+        border: 1px solid black; /* Just for demonstration */
+        padding: 20px; /* Add padding for better appearance */
+        font-family: serif;
+        color: #fff;
+    }
+    nav {
+        list-style-type: none;
+        padding: 0;
+        text-align: center; /* This will center the list items inside the nav */
+    }
+    nav li {
+        display: inline-block; /* Display the list items horizontally */
+        margin-right: 10px;
+        font-family: sans-serif;
+        font-size: 16px; 
+    }
+    nav li:hover{
+    	border-bottom: 4px solid skyblue;
+    }
+    .next1{
+    	color: #000;
+    	display: flex;
+    	margin-top: 80px;
+    	margin-right: 70px;
+    	font-family: sans-serif;
+    }
+    .UK{
+    	padding: 0 190px;
+    	font-family: sans-serif;
+    	color: #fff;
+    }
+    .UK h1{
+    	width: 252px;
+    	font-family: sans-serif;
+    }
+    #button{
+    	padding: 5px 25px 5px 25px;
+    	border: 1px solid black;
+    	border-radius: 3px;
+    	font-family: sans-serif;
+    	font-size: 15px; 
+    	background-color:lightblue;
+    	color: darkblue;
+    	margin-right: 20px;
+    }
+     #button1{
+    	padding: 5px 25px 5px 25px;
+    	border: 1px solid black;
+    	border-radius: 3px;
+    	font-family: sans-serif;
+    	font-size: 15px; 
+    }
+    #button:hover{
+    	background-color: lightblue;
+    }
+    #button1:hover{
+    	background-color: lightblue;
+    }
+    input{
+    	padding: 7px 50px 7px 50px;
+    	color: gray;
+    }
+    #get{
+    	position: absolute;
+    	right: 274px;
+    	margin-top: 275px;
+    	padding: 15px 90px 15px 90px;
+    	border-radius: 20px;
+    	border-style: none;
+    	color: #fff;
+    	background-color: blue;
+    }
+    #get:hover{
+    	color: blue;
+    }
+    .cover{
+    	background-color: #fff;
+    	padding: 19px 30px 68px 40px;
+    	margin-top: -20px;
+    }
+    .now h1{
+    	text-align: center;
+    }
+    .now h4{
+    	margin-top: 6px;
+
+    }
